@@ -1,6 +1,6 @@
 const products = [
     {id:36, name: 'Samsung 365i', price: 25700, celler: 'A365i11'},
-    {id:37, name: 'Glut ali 711', price: 36500, celler: 'A3152'},
+    {id:37, name: 'Glut ali 711', price: 86500, celler: 'A3152'},
     {id:38, name: 'iphone 915', price: 85000, celler: 'A365i11'},
     {id:39, name: 'samji', price: 31000, celler: 'A365i11'},
     {id:40, name: 'sauto', price: 45000, celler: 'A365i11'},
@@ -14,5 +14,5 @@ const products = [
 ]
 
 const numbers = [25, 45, 85, 47, 15, 36, 54];
-const fives = numbers.filter(num=> num % 5 === 0);
+const fives = numbers.find(num=> num % 5 === 0);
 console.log(fives);
