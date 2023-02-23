@@ -151,3 +151,13 @@ console.log(object.address);
 console.log(object.address?.city);
 console.log(object.address?.geo?.lat);
 console.log(object.company);
+
+const obj = {
+    foo: 1
+};
+obj.bar = 2;
+console.log("object",obj);
+console.log(Math.min([25,2,65,1,3]));
+const number = [1,2,3,4,5]
+let output = number.filter(n=> n%2);
+console.log(output);
